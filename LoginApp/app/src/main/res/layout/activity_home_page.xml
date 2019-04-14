@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomePage">
+
+    <TextView
+        android:id="@+id/textViewMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+         />
+
+    <EditText
+        android:id="@+id/editTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Kişi adı giriniz"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/buttonAddPerson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:text="Ekle"/>
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="395dp"
+        android:layout_height="715dp"
+
+        />
+
+</LinearLayout>
